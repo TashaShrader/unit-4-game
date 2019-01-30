@@ -1,0 +1,132 @@
+body {
+    max-width: 700px;
+    font-family: 'Orbitron', sans-serif;
+  
+}
+
+h1 {    
+     
+font-family: 'Luckiest Guy', cursive;
+    background-color: green;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+}
+#randomNumber {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    
+    background-color: yellow;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: static;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+#first {
+   
+    background-color: yellow;
+    margin-left: 20px;
+   
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    position: static;
+}
+
+#randomNumber {    
+    width: 500px;
+    height: 100px;
+    background-color: green;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+#wins {
+    
+    height: 45px;
+    background-color: yellow;
+    position: static;
+    margin-left: 525px;
+    margin-top: 10px;
+   padding-top: 10px;
+    text-align: center;
+    
+}
+
+#losses {    
+    height: 45px;
+    background-color: green;
+    margin-left: 525px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: static;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+#img1 {
+    width: 170px;
+    float: left;
+    margin-left: 20px;
+ 
+}
+#img2 {
+    width: 170px;
+    float: left;
+  
+}
+#img3 {
+    width: 170px;
+    float: left;
+   
+}
+#img4 {
+    width: 170px;
+  
+}
+
+#score {
+    height: 100px;
+    background-color: yellow;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position: static;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#scoreNumber {    
+    height: 100px;
+    background-color: green;
+   margin-left: 20px;
+   padding-top: 20px;
+   margin-bottom: 10px;
+   padding-left: 10px;
+   text-align: center;
+}
+
+
+
+/*
+    
+*/
