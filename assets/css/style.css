@@ -7,34 +7,36 @@ body {
 h1 {    
      
 font-family: 'Luckiest Guy', cursive;
-    background-color: green;
+    background-color:pink;
     margin-left: 20px;
     margin-bottom: 10px;
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 150px;
 }
 #randomNumber {
     font-family: 'Luckiest Guy', cursive;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 p {
-    
-    background-color: yellow;
+    color: white;
+    background-color: purple;
     margin-left: 20px;
     padding-left: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
     position: static;
     font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #first {
-   
-    background-color: yellow;
+   color: white;
+    background-color: purple;
     margin-left: 20px;
-   
     margin-bottom: 0px;
     margin-bottom: 0px;
     padding-left: 10px;
@@ -43,11 +45,11 @@ p {
 
 #randomNumber {    
     width: 500px;
-   
-    background-color: green;
+    background-color: pink;
     margin-left: 10px;
     padding-top: 10px;
     margin-bottom: 10px;
+    margin-top: 0px;
     float: left;
     margin-bottom: 10px;
     padding-left: 10px;
@@ -56,26 +58,26 @@ p {
 
 #wins {
     
-  
-    background-color: yellow;
+  color: white;
+    background-color: purple;
     position: static;
     margin-left: 525px;
-    margin-top: 20px;
-   padding-top: 5px;
-   padding-bottom: 5px;
+    margin-top: 10px;
+   padding-top: 2px;
+   padding-bottom: 2px;
     text-align: center;
     
 }
 
 #losses {    
-    background-color: green;
+    background-color: pink;
     margin-left: 525px;
     margin-bottom: 15px;
     margin-top: 15px;
     position: static;
     padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     text-align: center;
 }
 
@@ -103,26 +105,28 @@ p {
 }
 
 #score {
-
-    background-color: yellow;
+color: white;
+    background-color: purple;
     margin-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-   
+   font-size: 20px;
     position: static;
     padding-left: 10px;
     text-align: center;
 }
 
 #player {    
-    height: 100px;
-    background-color: green;
+    font-family: 'Luckiest Guy', cursive;
+    background-color: pink;
    margin-left: 20px;
-   padding-top: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
    margin-bottom: 10px;
    padding-left: 10px;
    text-align: center;
+   font-size: 40px;
 }
 
 
