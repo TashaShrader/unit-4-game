@@ -1,32 +1,90 @@
 $(document).ready(function() {
-
-
-    var total = 0;
-    var wins = 0;
-    var losses = 0;
-    let random = " " + Math.floor(Math.random() * 101);
-    let firstButton = " " + Math.floor(Math.random() * 11);
-
-    console.log(random);
-    $('#randomNumber').html(random);
-
-
-    $('#img1').on("click", function() {  
-    console.log(firstButton);
-    var total = firstButton;
- 
-    console.log(total);
-    });
-
-      
-if (total === randomNumber) {
-    wins++;
-    $("#wins").html("wins: ", wins);
-}
-else {
-    losses++;
-    $("#losses").html("losses: ", losses);
-}
     
+var targetNumber = " " + Math.floor(Math.random() * 101);
+$('#randomNumber').html(targetNumber);
+
+var firstButton = " " + Math.floor(Math.random() * 11);
+var secondButton = " " + Math.floor(Math.random() * 11);
+var thirdButton = " " + Math.floor(Math.random() * 11);
+var fourthButton = " " + Math.floor(Math.random() * 11);
+var playerTotal = 0;
+var wins = 1;
+var losses = 1;
+
+console.log(firstButton);
+console.log(secondButton);
+console.log(thirdButton);
+console.log(fourthButton);
+
+function reset() {
+targetNumber = " " + Math.floor(Math.random() * 101);
+firstButton = " " + Math.floor(Math.random() * 11);
+secondButton = " " + Math.floor(Math.random() * 11);
+thirdButton = " " + Math.floor(Math.random() * 11);
+fourthButton = " " + Math.floor(Math.random() * 11);
+playerTotal = 0;    
+$('#randomNumber').html(targetNumber);
+};
+
+
+function result() {
+if (targetNumber < playerTotal) {
+reset();
+alert("you lost!")
+$("#losses").html("losses: " + losses++);
+console.log(firstButton);
+console.log(secondButton);
+console.log(thirdButton);
+console.log(fourthButton);
+};
+if (playerTotal === targetNumber) {
+reset();
+alert("you won!");
+$("#wins").html("wins: " + wins++);
+console.log(firstButton);
+console.log(secondButton);
+console.log(thirdButton);
+console.log(fourthButton);
+};
+};
+
+
+$('#img1').on("click", function() {
+playerTotal = parseInt(playerTotal) + parseInt(firstButton);
+console.log(playerTotal);
+$('#player').html(playerTotal);
+result()
 });
+
+$('#img2').on("click", function() {
+playerTotal = parseInt(playerTotal) + parseInt(secondButton);
+console.log(playerTotal);
+$('#player').html(playerTotal);
+result();
+});
+
+
+$('#img3').on("click", function() {
+playerTotal = parseInt(playerTotal) + parseInt(thirdButton);
+console.log(playerTotal);
+$('#player').html(playerTotal);
+result();
+});
+
+$('#img4').on("click", function() {
+playerTotal = parseInt(playerTotal) + parseInt(fourthButton);
+console.log(playerTotal);
+$('#player').html(playerTotal);
+result();
+});
+
+
+
+});
+
+
+
+
+
+
 

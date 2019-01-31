@@ -23,12 +23,10 @@ p {
     
     background-color: yellow;
     margin-left: 20px;
-    padding-top: 10px;
     padding-left: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
     position: static;
-    padding-bottom: 10px;
     font-size: 15px;
 }
 
@@ -45,10 +43,10 @@ p {
 
 #randomNumber {    
     width: 500px;
-    height: 100px;
+   
     background-color: green;
-    margin-left: 20px;
-    padding-top: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
     margin-bottom: 10px;
     float: left;
     margin-bottom: 10px;
@@ -58,25 +56,26 @@ p {
 
 #wins {
     
-    height: 45px;
+  
     background-color: yellow;
     position: static;
     margin-left: 525px;
-    margin-top: 10px;
-   padding-top: 10px;
+    margin-top: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
     text-align: center;
     
 }
 
 #losses {    
-    height: 45px;
     background-color: green;
     margin-left: 525px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     position: static;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
@@ -104,18 +103,19 @@ p {
 }
 
 #score {
-    height: 100px;
+
     background-color: yellow;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 10px;
-    margin-top: 20px;
+   
     position: static;
     padding-left: 10px;
     text-align: center;
 }
 
-#scoreNumber {    
+#player {    
     height: 100px;
     background-color: green;
    margin-left: 20px;
